@@ -1,0 +1,13 @@
+{
+    "appId": "com.example.app",
+    "productName": "AppName",
+    "copyright": "Copyright © Company",
+    "directories": {
+      "output": "release/"
+    },
+    "publish": {
+        "provider": "s3",
+        "bucket": "leirbag",
+        "region": "us-east-2"
+    }    
+  }

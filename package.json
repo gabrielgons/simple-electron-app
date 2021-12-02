@@ -1,0 +1,26 @@
+{
+  "name": "simple-electron-app",
+  "version": "1.0.0",
+  "description": "Aplicação simples em Electron com atualização automática.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielgons/simple-electron-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielgons/simple-electron-app/issues"
+  },
+  "homepage": "https://github.com/gabrielgons/simple-electron-app#readme",
+  "devDependencies": {
+    "electron": "^16.0.3"
+  },
+  "dependencies": {
+   
+  }
+}
