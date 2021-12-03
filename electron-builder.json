@@ -1,7 +1,7 @@
 {
-    "appId": "com.example.app",
-    "productName": "AppName",
-    "copyright": "Copyright © Company",
+    "appId": "br.com.alterdata.updocs",
+    "productName": "updocs",
+    "copyright": "Copyright ©Alterdata",
     "directories": {
       "output": "release/"
     },

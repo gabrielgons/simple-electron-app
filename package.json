@@ -1,11 +1,13 @@
 {
-  "name": "simple-electron-app",
-  "version": "1.0.0",
+  "name": "updocs",
+  "version": "2.1.3",
   "description": "Aplicação simples em Electron com atualização automática.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "publish": "npx electron-builder build -p always",
+    "build": "npx electron-builder build -p never"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
     "electron": "^16.0.3"
   },
   "dependencies": {
-   
+    "electron-log": "^4.4.1",
+    "electron-updater": "4.2.0"
   }
 }
